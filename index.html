@@ -12,30 +12,33 @@
 	<form id="add_contact_form">
 		<div>
 			<label for="first_name">First Name:</label>
-			<input name="first_name" id="first_name" value="Sam">
+			<input name="first_name" id="add_contact_first_name_input" value="Sam">
 		</div>
 		<div>
 			<label for="last_name">Last Name:</label>
-			<input name="last_name" id="last_name" value="Cloud">
+			<input name="last_name" id="add_contact_last_name_input" value="Cloud">
 		</div>
 		<div>
 			<label for="email">Email:</label>
-			<input name="email" id="email" size="24" maxlength="40" value="samcloud@cloudready.app">
+			<input name="email" id="add_contact_email_input" size="24" maxlength="40" value="samcloud@cloudready.app">
 		</div>
 		<div>
 			<input type="submit" value="Submit POST Request">
 		</div>
+		<p id="add_contact_data_p"></p>
 	</form>
+
+	<br>
 
 	<p>Let's retrieve a person from our contact list</p>
 	<form id="get_contact_form">
 		<div>
 			<label for="first_name">First Name:</label>
-			<input name="first_name" id="first_name" value="Sam">
+			<input name="first_name" id="get_contact_first_name_input" value="Sam">
 		</div>
 		<div>
 			<label for="last_name">Last Name:</label>
-			<input name="last_name" id="last_name" value="Cloud">
+			<input name="last_name" id="get_contact_last_name_input" value="Cloud">
 		</div>
 		<div>
 			<input type="submit" value="Submit GET Request">
